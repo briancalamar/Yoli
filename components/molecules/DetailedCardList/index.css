@@ -1,0 +1,6 @@
+.container-card {
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  overflow: hidden;
+}

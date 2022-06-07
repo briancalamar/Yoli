@@ -1,0 +1,11 @@
+.title-with-counter {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3em;
+  padding: 0;
+}
+
+.title-with-counter__counter {
+  padding-bottom: 3px;
+  color: rgb(205, 205, 205);
+}

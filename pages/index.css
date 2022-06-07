@@ -1,1 +1,9 @@
 @import '../components/atoms/NewEntry/index';
+@import '../components/atoms/TitleWithCounter/index';
+@import '../components/atoms/DetailedCard/index';
+@import '../components/molecules/DetailedCardList/index';
+@import '../components/organisms/DetailedCardSection/index';
+
+.index__search {
+  margin: 1rem 0;
+}

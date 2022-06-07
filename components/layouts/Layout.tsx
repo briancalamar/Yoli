@@ -11,7 +11,7 @@ interface Props {
 
 export const Layout: FC<Props> = ({ title = 'OpenJira', children }) => {
   return (
-    <Box sx={{ flexFlow: 1, background: 'linear-gradient(to bottom, #000428, #2c2367)' }}>
+    <Box sx={{ flexFlow: 1, background: 'linear-gradient(to bottom, #000428, #2c2367)', minHeight: '100vh' }}>
       <Head>
         <title>{title}</title>
       </Head>

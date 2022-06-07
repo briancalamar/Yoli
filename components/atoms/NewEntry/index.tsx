@@ -6,8 +6,8 @@ export const NewEntry = () => {
   return (
     <>
       <Fab
-        className='pepe'
-        aria-label='add'
+        className='new-entry'
+        aria-label='add-entry'
       >
         <AddIcon />
       </Fab>

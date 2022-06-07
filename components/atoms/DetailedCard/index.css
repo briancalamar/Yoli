@@ -1,0 +1,15 @@
+.detailed-card {
+  min-width: 150px;
+  height: 180px;
+  border-radius: 1em;
+}
+
+.detailed-card:nth-child(2n+1) {
+  background-image: url('../../../assets/images/2d.png');
+  background-size: cover;
+}
+
+.detailed-card:nth-child(2n+2) {
+  background-image: url('../../../assets/images/1d.png');
+  background-size: cover;
+}
