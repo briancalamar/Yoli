@@ -3,7 +3,9 @@ export interface Entry {
   title: string;
   description: string;
   createdAt: number;
+  finishDate: string;
   status: EntryStatus;
+  subTasks?: SubTask[];
 }
 
 export interface EmptyEntry {
@@ -15,3 +17,9 @@ export interface EmptyEntry {
 }
 
 export type EntryStatus = 'pending' | 'in-progress' | 'done';
+
+export interface SubTask {
+  _id: string;
+  title: string;
+  status: true | false;
+}
